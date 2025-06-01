@@ -1,7 +1,7 @@
 import java.util.*;
 
 // Classe que representa o grafo
-class GrafoBellmanFord { // Renomeado para evitar conflito
+class GrafoBellmanFord {
 
     // Vetor que guarda os vértices do grafo
     private final Vertice[] vertices;
