@@ -1,7 +1,7 @@
 import java.util.*;
 
 // Classe que representa o grafo
-class GrafoDijkstra { // Renomeado para evitar conflito de nomes se ambos os grafos estiverem no mesmo contexto
+class GrafoDijkstra {
 
     // Vetor que guarda os vértices do grafo
     private final Vertice[] vertices;
