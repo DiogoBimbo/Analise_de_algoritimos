@@ -2,7 +2,7 @@ import java.util.*;
 
 // Classe Aresta: Representa uma aresta ponderada no grafo.
 // Implementa Comparable para permitir a ordenação das arestas por peso.
-class ArestaKruskal implements Comparable<ArestaKruskal>{ // Renomeado para evitar conflito
+class ArestaKruskal implements Comparable<ArestaKruskal>{ 
     int u, v, peso; // u - vértice de origem da aresta; v - vértice de destino; peso - custo da aresta
 
     ArestaKruskal(int u, int v, int peso){
